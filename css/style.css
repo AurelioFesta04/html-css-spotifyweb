@@ -26,7 +26,7 @@ body {
 
 header {
     width: 15vw;
-    height: 90vh;
+    height: 95vh;
     background-color: #000000;
     padding-left: 20px;
 }
@@ -110,7 +110,7 @@ header {
 
 main {
     width: 85vw;
-    height: 90vh;
+    height: 95vh;
     background-color: hsl(218.57deg 25.93% 10.59%);
     overflow: auto;
 }
@@ -182,15 +182,6 @@ main {
 
 }
 
-footer {
-    z-index: 9999;
-    position: fixed;
-    bottom: 0;
-    height: 7vw;
-    width: 100vw;
-    background-color: hsl(0deg 0% 15.69%);
-}
-
 .grey2 {
     color: gray;
     font-size: 12px;
@@ -221,4 +212,123 @@ footer {
 
 .text-down {
     padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+    height: 5vw;
+    width: 100vw;
+    background-color: hsl(0deg 0% 15.69%);
+    padding: 10px 2% 10px 2%;
+}
+
+.music {
+    width: 40px;
+}
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.foot-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.description {
+    font-size: 14px;
+    color: grey;
+}
+
+.sinister {
+    color: white;
+}
+
+.heart-folder {
+    width: 15px;
+}
+
+.foot-1-2 {
+    display: flex;
+    gap: 15px;
+}
+
+.foot-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-2-3 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footericons {
+    width: 15px;
+}
+
+.footericons1 {
+    width: 30px;
+}
+
+.foot-2-4 {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    color: white;
+    font-size: 12px;
+}
+
+.bar {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.last-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.last-icons {
+    width: 15px;
+}
+
+.foot-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume-bar {
+    width: 100px;
 }
