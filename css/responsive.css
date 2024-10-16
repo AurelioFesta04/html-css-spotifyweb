@@ -196,4 +196,71 @@
     .volume-bar {
         width: 30px;
     }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .upgrade {
+        font-size: 10px;
+    }
+
+    .recent {
+        font-size: 14px;
+    }
+
+    .profilename {
+        font-size: 8px;
+    }
+
+    .card1 {
+        padding: 10px 5px 10px 1px;
+    }
+
+    .stranger-things {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    header {
+    width: 50px;
+    }
+
+    main {
+    width: calc(100% - 50px);
+    }
+
+    .header-logo {
+    display: none;
+    }
+
+    .second-logo {
+    display: block;
+    }
+
+    .header-last {
+    padding-top: 295px;
+    }
+
+    .none-column {
+    display: none;
+    }
+
+    .header-last {
+        padding-top: 400px;
+    }
+
+    .recent {
+        font-size: 20px;
+    }
+
+    .ul-choice {
+        justify-content: center;
+    }
+
+    .playlistname {
+        font-size: 7px;
+    }
 }
