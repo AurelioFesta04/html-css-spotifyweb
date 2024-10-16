@@ -1,0 +1,199 @@
+@media screen and (max-width: 768px) {
+    .ul-choice {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 5%;
+    }
+
+    .li-choice {
+        width: calc(100% / 5);
+    }
+
+    .row1 {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .card1 {
+        width: calc(95% / 4);
+        padding: 5px;
+    }
+
+    .bar {
+        width: 200px;
+    }
+
+    .foot-1-2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 927px) {
+    .ul-choice {
+        padding: 10px 20px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .upgrade {
+        font-size: 12px;
+    }
+
+    .ul-choice {
+        padding: 10px 0px;
+        justify-content: space-around;
+    }
+
+    .grey {
+        font-size: 6px;
+    }
+
+    .row1 {
+        padding: 10px 5px 10px 15px;
+    }
+
+    .card1 {
+        width: calc(95% / 2);
+        padding: 5px;
+    }
+
+    .profilename {
+        font-size: 12px;
+    }
+
+    .music {
+        width: 30px;
+    }
+
+    .font-1-1 {
+        gap: 10px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .heart-folder {
+        width: 10px;
+    }
+
+    .foot-1-2 {
+        gap: 5px;
+    }
+
+    .foot-2-3 {
+        gap: 10px;
+    }
+
+    .footericons {
+        width: 10px;
+    }
+
+    .footericons1 {
+        width: 20px;
+    }
+
+    .foot-2-4 {
+        gap: 10px;
+    }
+
+    .time {
+        font-size: 10px;
+    }
+
+    .time1 {
+        padding-left: 10px;
+    }
+
+    .time2 {
+        padding-right: 10px;
+    }
+
+    .bar {
+        width: 100px;
+    }
+
+    .last-list {
+        gap: 10px;
+    }
+
+    .last-icons {
+        width: 10px;
+    }
+
+    .volume-bar {
+        width: 30px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .grey {
+        font-size: 8px;
+    }
+
+    .music {
+        width: 30px;
+    }
+
+    .font-1-1 {
+        gap: 10px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .heart-folder {
+        width: 10px;
+    }
+
+    .foot-1-2 {
+        gap: 5px;
+    }
+
+    .foot-2-3 {
+        gap: 10px;
+    }
+
+    .footericons {
+        width: 10px;
+    }
+
+    .footericons1 {
+        width: 20px;
+    }
+
+    .foot-2-4 {
+        gap: 10px;
+    }
+
+    .time {
+        font-size: 10px;
+    }
+
+    .time1 {
+        padding-left: 10px;
+    }
+
+    .time2 {
+        padding-right: 10px;
+    }
+
+    .bar {
+        width: 100px;
+    }
+
+    .last-list {
+        gap: 10px;
+    }
+
+    .last-icons {
+        width: 10px;
+    }
+
+    .volume-bar {
+        width: 30px;
+    }
+}
