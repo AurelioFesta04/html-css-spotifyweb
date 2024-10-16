@@ -27,6 +27,10 @@
     .foot-1-2 {
         flex-direction: column;
     }
+
+    .footericons2 {
+        width: 40px
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 927px) {
@@ -126,6 +130,10 @@
     .volume-bar {
         width: 30px;
     }
+
+    .footericons2 {
+        width: 30px
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -221,6 +229,9 @@
         font-size: 10px;
     }
 
+    .footericons2 {
+        width: 20px
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -262,5 +273,9 @@
 
     .playlistname {
         font-size: 7px;
+    }
+
+    .footericons2 {
+        width: 10px
     }
 }
