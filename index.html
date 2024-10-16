@@ -21,29 +21,30 @@
         </section>
         <section>
             <ul class="ul-menu">
-                <li><a class="menu" href=""><svg class="menu-icons" viewBox="0 0 512 512"
+                <li class="home"><a class="menu align2" href=""><svg class="menu-icons" viewBox="0 0 512 512"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z"
                                 fill="#ffffff" />
                         </svg> Home</a></li>
-                <li><a class="menu" href=""><svg class="menu-icons" viewBox="0 0 512 512"
-                            xmlns="http://www.w3.org/2000/svg">
+                <li class="align2 cerchiaml"><a class="menu align2" href=""><svg class="menu-icons"
+                            viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z"
-                                fill="#ffffff" fill-rule="evenodd" />
+                                fill="#808080" fill-rule="evenodd" />
                         </svg> Cerca</a></li>
-                <li><a class="menu" href=""><svg class="menu-icons" viewBox="0 0 512 512"
+                <li class="align2 library"><a class="menu align2" href=""><svg class="menu-icons" viewBox="0 0 512 512"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z"
-                                fill="#ffffff" />
+                                fill="#808080" />
                         </svg> La tua libreria</a></li>
             </ul>
         </section>
         <section class="all-playlist">
             <p><strong class="playlist">PLAYLIST</strong></p>
-            <p><a class="playlistplus" href=""><strong class="plus">+</strong> <strong>Crea playlist</strong></a></p>
+            <p><a class="playlistplus" href=""><strong class="plus">+</strong> <strong class="playlistname">Crea
+                        playlist</strong></a></p>
         </section>
         <section>
             <ul class="ul-pl-name">
@@ -58,7 +59,7 @@
         </section>
         <section class="header-last">
             <div>
-                <p><a class="install" href=""><svg class="install-svg" viewBox="0 0 20 20"
+                <p><a class="install playlistname" href=""><svg class="install-svg" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>Download icon</title>
                             <path
@@ -81,12 +82,12 @@
         </section>
         <section>
             <ul class="ul-choice">
-                <li><a class="grey" href=""><strong>IN EVIDENZA</strong></a></li>
-                <li><a class="grey" href=""><strong>PODCAST</strong></a></li>
-                <li><a class="grey" href=""><strong>CLASSIFICHE</strong></a></li>
-                <li><a class="grey" href=""><strong>GENERI E MOOD</strong></a></li>
-                <li><a class="grey" href=""><strong>NUOVE USCITE</strong></a></li>
-                <li><a class="grey" href=""><strong>SCOPRI</strong></a></li>
+                <li><a class="grey playlistname" href=""><strong class="underline">IN EVIDENZA</strong></a></li>
+                <li><a class="grey playlistname" href=""><strong>PODCAST</strong></a></li>
+                <li><a class="grey playlistname" href=""><strong>CLASSIFICHE</strong></a></li>
+                <li><a class="grey playlistname" href=""><strong>GENERI E MOOD</strong></a></li>
+                <li><a class="grey playlistname" href=""><strong>NUOVE USCITE</strong></a></li>
+                <li><a class="grey playlistname" href=""><strong>SCOPRI</strong></a></li>
             </ul>
         </section>
         <p><strong class="recent">Recently played</strong></p>
@@ -94,7 +95,14 @@
 
             <div class="card1">
                 <a href="">
-                    <img src="spotify/img/metal_lifting.jpg" alt="">
+                    <div class="listen">
+                        <img class="dark" src="spotify/img/metal_lifting.jpg" alt="">
+                        <svg class="footericons2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z" />
+                        </svg>
+                    </div>
                     <p class="text-down"><strong class="profile-name">Heavy Metal</strong></p>
                     <p class="grey text-down">subtitle</p>
                 </a>
@@ -102,7 +110,14 @@
 
             <div class="card1">
                 <a href="">
-                    <img src="spotify/img/stranger.jpeg" alt="">
+                    <div class="listen">
+                        <img class="dark" src="spotify/img/stranger.jpeg" alt="">
+                        <svg class="footericons2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z" />
+                        </svg>
+                    </div>
                     <p class="text-down"><strong class="profile-name">Stranger Things, Vol. 1 (a Netflix Original Series
                             Soundtrack)</strong></p>
                     <p class="grey text-down">Kyle Dixon & Michael Stein</p>
@@ -111,7 +126,14 @@
 
             <div class="card1">
                 <a href="">
-                    <img src="spotify/img/aquietplace.jpeg" alt="">
+                    <div class="listen">
+                        <img class="dark" src="spotify/img/aquietplace.jpeg" alt="">
+                        <svg class="footericons2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z" />
+                        </svg>
+                    </div>
                     <p class="text-down"><strong class="profile-name">A quiet place</strong></p>
                     <p class="grey text-down">subtitle</p>
                 </a>
@@ -119,7 +141,14 @@
 
             <div class="card1">
                 <a href="">
-                    <img src="spotify/img/split.jpeg" alt="">
+                    <div class="listen">
+                        <img class="dark" src="spotify/img/split.jpeg" alt="">
+                        <svg class="footericons2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z" />
+                        </svg>
+                    </div>
                     <p class="text-down"><strong class="profile-name">Split</strong></p>
                     <p class="grey text-down">subtitle</p>
                 </a>
@@ -127,7 +156,14 @@
 
             <div class="card1">
                 <a href="">
-                    <img src="spotify/img/cure.jpeg" alt="">
+                    <div class="listen">
+                        <img class="dark" src="spotify/img/cure.jpeg" alt="">
+                        <svg class="footericons2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z" />
+                        </svg>
+                    </div>
                     <p class="text-down"><strong class="profile-name">A cure for wellness</strong></p>
                     <p class="grey text-down">subtitle</p>
                 </a>
@@ -135,7 +171,14 @@
 
             <div class="card1">
                 <a href="">
-                    <img src="spotify/img/sinister.jpeg" alt="">
+                    <div class="listen">
+                        <img class="dark" src="spotify/img/sinister.jpeg" alt="">
+                        <svg class="footericons2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z" />
+                        </svg>
+                    </div>
                     <p class="text-down"><strong class="profile-name">Sinister</strong></p>
                     <p class="grey text-down">subtitle</p>
                 </a>
@@ -178,7 +221,8 @@
                 <div class="card2">
                     <a href="">
                         <img class="circle" src="spotify/img/einaudi.jpeg" alt="">
-                        <p class="text-down"><strong class="profile-name">Ludovico Einaudi</strong></p>
+                        <p class="text-down main-padding-bottom"><strong class="profile-name">Ludovico Einaudi</strong>
+                        </p>
                     </a>
                 </div>
             </div>

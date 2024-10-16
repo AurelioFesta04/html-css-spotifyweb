@@ -25,6 +25,8 @@ body {
 
 
 header {
+    display: flex;
+    flex-direction: column;
     width: 180px;
     height: 95vh;
     background-color: #000000;
@@ -41,6 +43,7 @@ header {
 
 .ul-menu {
     line-height: 30px;
+    margin: 0 -20px;
 }
 
 .menu-icons {
@@ -76,9 +79,10 @@ header {
 }
 
 .header-last {
-    padding-top: 220px;
+    padding-top: 240px;
     width: 100%;
     line-height: 40px;
+    align-items: baseline;
 }
 
 .install {
@@ -133,17 +137,33 @@ main {
     padding: 10px 30px;
 }
 
+.upgrade:hover {
+    padding: 12px 36px;
+}
+
 .playlistname {
     font-size: 12px;
     color: grey;
+}
+
+.playlistname:hover {
+    color: white;
+}
+
+.playlistplus .plus:hover {
+    background-color: #ffffff;
 }
 
 .ul-pl-name {
     line-height: 25px;
 }
 
+.menu:hover {
+    color: #ffffff;
+}
+
 .grey {
-    color: gray;
+    color: #808080;
     font-size: 12px;
 }
 
@@ -182,6 +202,27 @@ main {
 
 }
 
+.listen {
+    position: relative;
+}
+
+.footericons2 {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    width: 50px;
+    top: 35%;
+    left: 40%;
+}
+
+.card1:hover .footericons2 {
+    display: inline;
+}
+
+.dark:hover {
+    filter: brightness(50%);
+}
+
 .grey2 {
     color: gray;
     font-size: 12px;
@@ -214,13 +255,17 @@ main {
     padding-top: 10px;
 }
 
+.main-padding-bottom {
+    padding-bottom: 30px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     z-index: 9999;
     position: fixed;
     bottom: 0;
-    height: 5vw;
+    height: 70px;
     width: 100vw;
     background-color: hsl(0deg 0% 15.69%);
     padding: 10px 2% 10px 2%;
@@ -247,6 +292,11 @@ footer {
 .description {
     font-size: 14px;
     color: grey;
+}
+
+.description:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .sinister {
@@ -292,6 +342,10 @@ footer {
     width: 30px;
 }
 
+.footericons1:hover {
+    width: 35px;
+}
+
 .foot-2-4 {
     gap: 20px;
     display: flex;
@@ -306,7 +360,7 @@ footer {
 
 .bar {
     width: 300px;
-    border: 1px solid white;
+    border: 1px solid grey;
     border-radius: 30px;
 }
 
@@ -330,5 +384,37 @@ footer {
 }
 
 .volume-bar {
+    border: 1px solid gray;
     width: 100px;
 }
+
+.home {
+    border-left: 2px solid hsl(83.54deg 100% 59.02%);
+    height: 25px;
+    padding-left: 20px;
+}
+
+.align2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.library {
+    padding-left: 20px;
+}
+
+.cerchiaml {
+    padding-left: 20px;
+}
+
+.underline {
+    border-bottom: 2px solid hsl(83.54deg 100% 59.02%);
+    padding-bottom: 5px;
+}
+
+.icon-display-none {
+    display: none;
+}
+
