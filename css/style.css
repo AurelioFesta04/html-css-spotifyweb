@@ -59,6 +59,10 @@ header {
     width: 20px;
 }
 
+.ul-menu:hover .menu-icons {
+    color: #ffffff;
+}
+
 .menu {
     color: grey;
     font-size: 12px;
@@ -413,11 +417,11 @@ footer {
 
 .foot-2:hover .greenbar {
     display: inline;
+    background-color: green;
 }
 
-.greenbar { 
-    display: none;
-    background-color: green;
+.greenbar {
+    background-color: white;
     width: 40%;
     height: 2px;
 }
@@ -426,7 +430,7 @@ footer {
     display: none;
     padding: 2%;
     border-radius: 50px;
-    background-color: green;
+    background-color: white;
 }
 
 .last-list:hover .green-circle {
@@ -435,6 +439,7 @@ footer {
 
 .last-list:hover .greenvol {
     display: inline;
+    background-color: green;
 }
 
 .volume-bar {
@@ -446,8 +451,7 @@ footer {
 }
 
 .greenvol { 
-    display: none;
-    background-color: green;
+    background-color: white;
     width: 40%;
     height: 2px;
 }
@@ -456,7 +460,7 @@ footer {
     display: none;
     padding: 5%;
     border-radius: 50px;
-    background-color: green;
+    background-color: white;
 }
 
 .home {
