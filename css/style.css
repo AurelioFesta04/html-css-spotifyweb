@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -20,8 +20,6 @@ body {
 }
 
 
-
-
 .second-logo {
     display: none;
     width: 20px;
@@ -32,9 +30,16 @@ header {
     display: flex;
     flex-direction: column;
     width: 180px;
-    height: 95vh;
+    height: 800px;
     background-color: #000000;
     padding-left: 20px;
+}
+
+.header-flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .headerhead {
@@ -62,6 +67,7 @@ header {
 .all-playlist {
     padding-top: 20px;
     line-height: 30px;
+    z-index: 99;
 }
 
 .playlist {
@@ -83,7 +89,7 @@ header {
 }
 
 .header-last {
-    padding-top: 240px;
+    margin-bottom: 20px;
     width: 100%;
     line-height: 40px;
     align-items: baseline;
@@ -150,7 +156,7 @@ main {
     color: grey;
 }
 
-.playlistname:hover {
+.all-playlist:hover .playlistname {
     color: white;
 }
 
@@ -348,7 +354,7 @@ footer {
 }
 
 .footericons1:hover {
-    width: 35px;
+    transform: scale(1.2);
 }
 
 .foot-2-4 {
@@ -397,6 +403,7 @@ footer {
     border-left: 2px solid hsl(83.54deg 100% 59.02%);
     height: 25px;
     padding-left: 18px;
+    margin-bottom: 5px;
 }
 
 .align2 {
@@ -422,4 +429,3 @@ footer {
 .icon-display-none {
     display: none;
 }
-

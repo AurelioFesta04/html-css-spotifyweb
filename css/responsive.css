@@ -278,4 +278,17 @@
     .footericons2 {
         width: 10px
     }
+
+    .home {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .cerchiaml {
+        padding-bottom: 20px;
+    }
+    
+    .library {
+        padding-bottom: 20px;
+    }
 }
