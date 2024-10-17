@@ -137,6 +137,12 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
+    .stranger-things {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
     .grey {
         font-size: 8px;
     }
@@ -227,6 +233,7 @@
 
     .stranger-things {
         font-size: 10px;
+        line-height: 10px;
     }
 
     .footericons2 {

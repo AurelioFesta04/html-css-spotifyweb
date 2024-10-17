@@ -30,7 +30,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 180px;
-    height: 800px;
+    height: 95vh;
     background-color: #000000;
     padding-left: 20px;
 }
@@ -156,7 +156,7 @@ main {
     color: grey;
 }
 
-.all-playlist:hover .playlistname {
+.playlistname:hover {
     color: white;
 }
 
@@ -214,22 +214,30 @@ main {
 
 .listen {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .footericons2 {
     display: none;
-    z-index: 999;
-    position: absolute;
-    width: 50px;
-    top: 35%;
-    left: 40%;
 }
+
 
 .card1:hover .footericons2 {
     display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
 }
 
 .dark:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     filter: brightness(50%);
 }
 
@@ -370,10 +378,15 @@ footer {
 }
 
 .bar {
+    display: flex;
+    align-items: center;
     width: 300px;
-    border: 1px solid grey;
+    height: 2px;
+    background-color: #808080;
     border-radius: 30px;
 }
+
+
 
 .last-list {
     list-style: none;
@@ -394,9 +407,56 @@ footer {
     gap: 10px;
 }
 
+.foot-2:hover .green-circle-2 {
+    display: inline;
+}
+
+.foot-2:hover .greenbar {
+    display: inline;
+}
+
+.greenbar { 
+    display: none;
+    background-color: green;
+    width: 40%;
+    height: 2px;
+}
+
+.green-circle-2 {
+    display: none;
+    padding: 2%;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.last-list:hover .green-circle {
+    display: inline;
+}
+
+.last-list:hover .greenvol {
+    display: inline;
+}
+
 .volume-bar {
-    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    background-color: #808080;
     width: 80px;
+    height: 2px;
+}
+
+.greenvol { 
+    display: none;
+    background-color: green;
+    width: 40%;
+    height: 2px;
+}
+
+.green-circle {
+    display: none;
+    padding: 5%;
+    border-radius: 50px;
+    background-color: green;
 }
 
 .home {
